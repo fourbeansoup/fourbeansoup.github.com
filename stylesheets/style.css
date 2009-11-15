@@ -1,0 +1,31 @@
+html {margin: 0; padding: 0;}
+body {background: #efc119 url(../images/header.png) top left repeat-x; font-family: Verdana, Helvetica, Arial,sans-serif !important; padding: 0; margin: 0;}
+a {color: #ca4b26; text-decoration: none;}
+a:hover {text-decoration: underline;}
+h1, h2, h3, h4, h5, h6 {color: #382c00;}
+
+/* Navigation */
+
+#top_bar h1 {background: url(../images/fourbeansoup.png) no-repeat top center; height: 288px;text-indent: -9999px; margin-top: -15px; margin-bottom: 0; padding: 0;}
+#top_bar h1 a {display: block; height: 288px; text-indent: -9999px; margin: 0; padding: 0;}
+#top_bar {margin: 0 auto; text-align: center;}
+#nav_main {width: 325px; margin-left: auto; margin-right: auto;}
+#nav_main ul {text-align: center;}
+#nav_main ul li {float: left; display: inline; padding: 0 5px;}
+#nav_main a {text-transform: uppercase;}
+
+
+/* Content */
+
+#content {background: white; border: 1px solid #a78712; width: 850px; margin: 0 auto; padding: 0;}
+#content .inner {border: 7px solid #e8e8e8; padding: 5px 20px;}
+#content h2 {text-align: center;}
+
+.service_logo {float: left; margin: 0 5px;}
+.service_name {float; left;}
+
+hr {width: 60%;}
+
+/* Footer */
+
+#footer {text-align: center;}
