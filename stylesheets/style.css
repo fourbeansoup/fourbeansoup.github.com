@@ -1,12 +1,12 @@
-html {margin: 0; padding: 0;}
-body {background: #efc119 url(../images/header.png) top left repeat-x; font-family: Verdana, Helvetica, Arial,sans-serif !important; padding: 0; margin: 0;}
+body {background: #efc119 url(../images/header.png) top left repeat-x; font-size: 14px; font-family: Verdana, Helvetica, Arial,sans-serif !important;}
 a {color: #ca4b26; text-decoration: none;}
 a:hover {text-decoration: underline;}
-h1, h2, h3, h4, h5, h6 {color: #382c00;}
+p {line-height: 1.2; padding: 10px 0;}
+h1, h2, h3, h4, h5, h6 {color: #382c00; font-family: Helvetica, Arial, sans-serif;}
 
 /* Navigation */
 
-#top_bar h1 {background: url(../images/fourbeansoup.png) no-repeat top center; height: 288px;text-indent: -9999px; margin-top: -15px; margin-bottom: 0; padding: 0;}
+#top_bar h1 {background: url(../images/fourbeansoup.png) no-repeat top center; height: 288px;text-indent: -9999px;}
 #top_bar h1 a {display: block; height: 288px; text-indent: -9999px; margin: 0; padding: 0;}
 #top_bar {margin: 0 auto; text-align: center;}
 #nav_main {width: 325px; margin-left: auto; margin-right: auto;}
@@ -17,15 +17,29 @@ h1, h2, h3, h4, h5, h6 {color: #382c00;}
 
 /* Content */
 
-#content {background: white; border: 1px solid #a78712; width: 850px; margin: 0 auto; padding: 0;}
-#content .inner {border: 7px solid #e8e8e8; padding: 5px 20px;}
-#content h2 {text-align: center;}
+#content {background: white; border: 1px solid #a78712; width: 850px; margin: 0 auto; line-height: 1.6;}
+#content .inner {border: 7px solid #e8e8e8; padding: 20px 40px;}
+#content h2 {text-align: center; padding: 15px; font-size: 130%;}
 
-.service_logo {float: left; margin: 0 5px;}
+.service_logo {float: right; margin: 0 5px;}
 .service_name {float; left;}
 
 hr {width: 60%;}
 
 /* Footer */
 
-#footer {text-align: center;}
+#footer {text-align: center; font-size: 75%;}
+
+/* -----------------------------------------------------
+	P.I.E. FLOAT CLEARING
+	www.positioniseverything.net/easyclearing.html
+----------------------------------------------------- */
+.clearfix:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+
+/* Fixes IE/Mac */
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
