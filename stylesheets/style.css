@@ -4,15 +4,17 @@ a:hover {text-decoration: underline;}
 p {line-height: 1.2; padding: 10px 0;}
 h1, h2, h3, h4, h5, h6 {color: #382c00; font-family: Helvetica, Arial, sans-serif;}
 
+.transparent { filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: 0.5;}
+
 /* Navigation */
 
-#top_bar h1 {background: url(../images/fourbeansoup.png) no-repeat top center; height: 288px;text-indent: -9999px;}
-#top_bar h1 a {display: block; height: 288px; text-indent: -9999px; margin: 0; padding: 0;}
+#top_bar h1 {background: url(../images/fourbeansoup.png) no-repeat top center; margin-top: -62px; height: 288px; text-indent: -9999px;}
+/*#top_bar h1 a {display: block; height: 288px; text-indent: -9999px; margin: 0; padding: 0;}*/
 #top_bar {margin: 0 auto; text-align: center;}
-#nav_main {width: 325px; margin-left: auto; margin-right: auto;}
-#nav_main ul {text-align: center;}
-#nav_main ul li {float: left; display: inline; padding: 0 5px;}
-#nav_main a {text-transform: uppercase;}
+#nav_main {height: 62px; width: 362px; background: url(../images/navbar.png) no-repeat top center; margin-left: auto; margin-right: auto;}
+#nav_main ul {}
+#nav_main ul li {float: left; display: inline; padding-left: 25px; padding-top: 20px; margin-left: 12px;}
+#nav_main a {text-transform: uppercase; color: black;}
 
 
 /* Content */
@@ -28,7 +30,7 @@ hr {width: 60%;}
 
 /* Footer */
 
-#footer {text-align: center; font-size: 75%;}
+#footer {text-align: center; font-size: 75%; margin: 10px;}
 
 /* -----------------------------------------------------
 	P.I.E. FLOAT CLEARING
