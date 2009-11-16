@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {color: #382c00;}
 
 #products {width: 525px; float: left;}
 .service h3 {font-family: Georgia, 'Times New Roman', Times, serif !important;}
-.logo_block {float: right; width: 100px; margin-top: 12px;}
+.logo_block {float: right; width: 100px; margin-top: 5px; margin-left: 5px;}
 .logo_block a {text-align: center; font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 85%;}
 
 .divider { border-top: 1px solid #a78712;}
