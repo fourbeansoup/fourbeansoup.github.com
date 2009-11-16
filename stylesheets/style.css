@@ -21,10 +21,10 @@ h1, h2, h3, h4, h5, h6 {color: #382c00;}
 
 #content {background: white; border: 1px solid #a78712; width: 900px; margin: 0 auto; line-height: 1.6;}
 #content .inner {border: 7px solid #e8e8e8; padding: 20px 40px;}
-#content h2 { padding: 15px; font-size: 175%; text-align: center;}
+#content h2 { padding-top: 15px; font-size: 175%; text-align: left;}
 
 #products {width: 525px; float: left;}
-.service h3 {font-size: 125%; font-family: Georgia, 'Times New Roman', Times, serif !important;}
+.service h3 {font-family: Georgia, 'Times New Roman', Times, serif !important;}
 .logo_block {float: right; width: 100px; margin-top: 12px;}
 .logo_block a {text-align: center; font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 85%;}
 
