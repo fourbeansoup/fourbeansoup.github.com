@@ -12,12 +12,12 @@ h1, h2, h3, h4, h5, h6 {color: #382c00;}
 /*#top_bar h1 a {display: block; height: 288px; text-indent: -9999px; margin: 0; padding: 0;}*/
 #top_bar {margin: 0 auto; text-align: center;}
 #nav_main {height: 62px; width: 362px; background: url(../images/navbar.png) no-repeat top center; margin-left: auto; margin-right: auto;}
-#nav_main ul {margin-left: 25px;}
+#nav_main ul {margin-left: 26px;}
 #nav_main ul li {float: left; display: inline;}
-#nav_main a {text-transform: uppercase; color: black; font-size: 120%; font-family: Verdana, Helvetica, Arial, sans-serif; display: block; height: 60px; width: 110px;}
-#nav_products {display: block; background: url(../images/products.png) no-repeat center center; text-indent: -9999px;}
-#nav_about_us {display: block; background: url(../images/about_us.png) no-repeat center center; text-indent: -9999px;}
-#nav_blog {display: block; background: url(../images/blog.png) no-repeat center center; text-indent: -9999px;}
+#nav_main a {text-transform: uppercase; color: black; font-size: 120%; font-family: Verdana, Helvetica, Arial, sans-serif; display: block; height: 60px; width: 105px;}
+#nav_products {display: block; background: url(../images/products.png) no-repeat 8px center; text-indent: -9999px;}
+#nav_about_us {display: block; background: url(../images/about_us.png) no-repeat 17px center; text-indent: -9999px; margin-left: 10px;}
+#nav_blog {display: block; background: url(../images/blog.png) no-repeat 35px center; text-indent: -9999px;}
 
 
 /* Content */
