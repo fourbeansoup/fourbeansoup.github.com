@@ -2,7 +2,7 @@ body {background: #efc119 url(../images/header.png) top left repeat-x; font-size
 a {color: #ca4b26; text-decoration: none;}
 a:hover {text-decoration: underline;}
 p {line-height: 1.2; padding: 10px 0;}
-h1, h2, h3, h4, h5, h6 {color: #382c00; font-family: Helvetica, Arial, sans-serif;}
+h1, h2, h3, h4, h5, h6 {color: #382c00;}
 
 .transparent { filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: 0.5;}
 
@@ -13,24 +13,25 @@ h1, h2, h3, h4, h5, h6 {color: #382c00; font-family: Helvetica, Arial, sans-seri
 #top_bar {margin: 0 auto; text-align: center;}
 #nav_main {height: 62px; width: 362px; background: url(../images/navbar.png) no-repeat top center; margin-left: auto; margin-right: auto;}
 #nav_main ul {}
-#nav_main ul li {float: left; display: inline; padding-left: 25px; padding-top: 20px; margin-left: ;}
+#nav_main ul li {float: left; display: inline; padding-left: 25px; padding-top: 20px;}
 #nav_main a {text-transform: uppercase; color: black; font-size: 120%; font-family: Verdana, Helvetica, Arial, sans-serif;}
 
 
 /* Content */
 
-#content {background: white; border: 1px solid #a78712; width: 850px; margin: 0 auto; line-height: 1.6;}
+#content {background: white; border: 1px solid #a78712; width: 900px; margin: 0 auto; line-height: 1.6;}
 #content .inner {border: 7px solid #e8e8e8; padding: 20px 40px;}
-#content h2 { padding: 15px; font-size: 200%;}
+#content h2 { padding: 15px; font-size: 175%; text-align: center;}
 
-.service {width: 525px;}
+#products {width: 525px; float: left;}
 .service h3 {font-size: 125%; font-family: Georgia, 'Times New Roman', Times, serif !important;}
-.service p {}
 .logo_block {float: right; width: 100px; margin-top: 12px;}
 .logo_block a {text-align: center; font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 85%;}
-.service_name {}
 
 .divider { border-top: 1px solid #a78712;}
+
+#tweet_container {width: 200px; float: right; margin: 0;}
+.tweet { background: #F5E3A3; padding: 10px; margin-top: 5px;}
 
 /* Footer */
 
