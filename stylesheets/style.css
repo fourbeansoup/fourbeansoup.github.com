@@ -1,4 +1,4 @@
-body {background: #efc119 url(../images/header.png) top left repeat-x; font-size: 14px; font-family: Georgia, 'Times New Roman', Times, serif !important;}
+body {background: #efc119 url(../images/header.png) top left repeat-x; font-size: 16px; font-family: Georgia, 'Times New Roman', Times, serif !important;}
 a {color: #ca4b26; text-decoration: none;}
 a:hover {text-decoration: underline;}
 p {line-height: 1.2; padding: 10px 0;}
@@ -21,10 +21,14 @@ h1, h2, h3, h4, h5, h6 {color: #382c00; font-family: Helvetica, Arial, sans-seri
 
 #content {background: white; border: 1px solid #a78712; width: 850px; margin: 0 auto; line-height: 1.6;}
 #content .inner {border: 7px solid #e8e8e8; padding: 20px 40px;}
-#content h2 {text-align: center; padding: 15px; font-size: 200%;}
+#content h2 { padding: 15px; font-size: 200%;}
 
-.service_logo {float: right; margin: 0 5px;}
-.service_name {float; left;}
+.service {width: 525px;}
+.service h3 {font-size: 125%; font-family: Georgia, 'Times New Roman', Times, serif !important;}
+.service p {}
+.logo_block {float: right; width: 100px; margin-top: 12px;}
+.logo_block a {text-align: center; font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 85%;}
+.service_name {}
 
 .divider { border-top: 1px solid #a78712;}
 
