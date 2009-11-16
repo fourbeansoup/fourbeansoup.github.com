@@ -1,4 +1,4 @@
-body {background: #efc119 url(../images/header.png) top left repeat-x; font-size: 14px; font-family: Verdana, Helvetica, Arial,sans-serif !important;}
+body {background: #efc119 url(../images/header.png) top left repeat-x; font-size: 14px; font-family: Georgia, 'Times New Roman', Times, serif !important;}
 a {color: #ca4b26; text-decoration: none;}
 a:hover {text-decoration: underline;}
 p {line-height: 1.2; padding: 10px 0;}
@@ -13,20 +13,20 @@ h1, h2, h3, h4, h5, h6 {color: #382c00; font-family: Helvetica, Arial, sans-seri
 #top_bar {margin: 0 auto; text-align: center;}
 #nav_main {height: 62px; width: 362px; background: url(../images/navbar.png) no-repeat top center; margin-left: auto; margin-right: auto;}
 #nav_main ul {}
-#nav_main ul li {float: left; display: inline; padding-left: 25px; padding-top: 20px; margin-left: 12px;}
-#nav_main a {text-transform: uppercase; color: black;}
+#nav_main ul li {float: left; display: inline; padding-left: 25px; padding-top: 20px; margin-left: ;}
+#nav_main a {text-transform: uppercase; color: black; font-size: 120%; font-family: Verdana, Helvetica, Arial, sans-serif;}
 
 
 /* Content */
 
 #content {background: white; border: 1px solid #a78712; width: 850px; margin: 0 auto; line-height: 1.6;}
 #content .inner {border: 7px solid #e8e8e8; padding: 20px 40px;}
-#content h2 {text-align: center; padding: 15px; font-size: 130%;}
+#content h2 {text-align: center; padding: 15px; font-size: 200%;}
 
 .service_logo {float: right; margin: 0 5px;}
 .service_name {float; left;}
 
-hr {width: 60%;}
+.divider { border-top: 1px solid #a78712;}
 
 /* Footer */
 
