@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {color: #382c00;}
 
 #content {background: white; border: 1px solid #a78712; width: 900px; margin: 0 auto; line-height: 1.6;}
 #content .inner {border: 7px solid #e8e8e8; padding: 20px 40px;}
-#content h2 { padding-top: 15px; font-size: 175%; text-align: left;}
+#content h2 {margin-bottom: 10px; font-size: 165%; text-align: left;}
 
 #products {width: 525px; float: left;}
 .service h3 {font-family: Georgia, 'Times New Roman', Times, serif !important;}
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {color: #382c00;}
 .divider { border-top: 1px solid #a78712;}
 
 #tweet_container {width: 200px; float: right; margin: 0;}
-.tweet { background: #F5E3A3; padding: 10px; margin-top: 5px;}
+.tweet { background: #F5E3A3; padding: 10px; margin-top: 5px; font-size: 95%;}
 
 /* Footer */
 
