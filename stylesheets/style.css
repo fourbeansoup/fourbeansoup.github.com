@@ -28,6 +28,7 @@ h2#slogan {background: url(../images/slogan.png) no-repeat center center; height
 #content h2 {margin-bottom: 10px; font-size: 165%; text-align: left; font-weight: normal;}
 
 #products {width: 525px; float: left;}
+#products h2 {background: url(../images/our_products.png) no-repeat left center; text-indent: -9999px;}
 .service h3 {font-family: Georgia, 'Times New Roman', Times, serif !important;}
 .logo_block {float: right; width: 100px; margin-top: 5px; margin-left: 5px;}
 .logo_block a {text-align: center; font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 85%;}
