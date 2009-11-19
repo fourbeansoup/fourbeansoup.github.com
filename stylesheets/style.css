@@ -36,11 +36,12 @@ h2#slogan {background: url(../images/slogan.png) no-repeat center center; height
 #feeds {float: left;}
 #feeds .gfc-resultsHeader {width: 100%; margin-bottom : 4px; border: none;}
   
-#feeds .gfc-resultsHeader .gfc-title{display: inline; color: black; font-size: 165%;}
+#feeds .gfc-resultsHeader .gfc-title{display: block; color: black; font-size: 165%; background: url(../images/our_blog.png) no-repeat left center; text-indent: -9999px;}
 
 .divider { border-top: 1px solid #a78712;}
 
 #tweet_container {width: 200px; float: right; margin: 0;}
+#tweet_container h2 {background: url(../images/our_tweets.png) no-repeat left center; text-indent: -9999px;}
 .tweet { background: #F5E3A3; padding: 10px; margin-top: 5px; font-size: 95%;}
 
 /* Footer */
