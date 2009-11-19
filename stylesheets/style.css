@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {color: #382c00;}
 
 /* Navigation */
 
-#top_bar h1 {background: url(../images/fourbeansoup.png) no-repeat top center; margin-top: -62px; height: 288px; text-indent: -9999px;}
+#top_bar h1 {background: url(../images/fourbeansoup.png) no-repeat top center; margin-top: -62px; height: 400px; text-indent: -9999px;}
 /*#top_bar h1 a {display: block; height: 288px; text-indent: -9999px; margin: 0; padding: 0;}*/
 #top_bar {margin: 0 auto; text-align: center;}
 #nav_main {height: 62px; width: 362px; background: url(../images/navbar.png) no-repeat top center; margin-left: auto; margin-right: auto;}
@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {color: #382c00;}
 #nav_blog {display: block; background: url(../images/blog.png) no-repeat 35px center; text-indent: -9999px;}
 
 
+h2#slogan {background: url(../images/slogan.png) no-repeat center center; height: 90px; text-indent: -9999px; margin-top: -130px; margin-bottom: 20px;}
 /* Content */
 
 #content {background: white; border: 1px solid #a78712; width: 900px; margin: 0 auto; line-height: 1.6;}
