@@ -1,111 +1,31 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-  Font: doom
-  Get yours: http://www.network-science.de/ascii/
-     ___ _                                            
-    /   | |                                           
-   / /| | |__   ___  __ _ _ __  ___  ___  _   _ _ __  
-  / /_| | '_ \ / _ \/ _` | '_ \/ __|/ _ \| | | | '_ \ 
-  \___  | |_) |  __/ (_| | | | \__ \ (_) | |_| | |_) |
-      |_/_.__/ \___|\__,_|_| |_|___/\___/ \__,_| .__/ 
-                                               | |    
-                                               |_|   
--->
-<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
-  <head>
-    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
-    <meta content='en' name='lang' />
-    <title>Four Bean Soup - Cooking up simple and elegant web apps</title>
-    <meta content="Four Bean Soup creates exciting web applications for people to use" name='description' />
-    <link href='./favicon.ico' rel='icon' />
-    <link href="stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAACp6YXqhXwHPYGyLq5cE5oxSBzb71kr8_m9BL-ZmFEyQnlGbkIBQcNl4Li6jG4RXhczbOpdKYnTAwgQ"></script> 
-    <script src="javascripts/jquery.tweet.js" type="text/javascript"></script>
-    <script src="javascripts/jquery.gfeed.js" type="text/javascript"></script>
-     <script type='text/javascript'>
-        $(document).ready(function(){
-            $(".tweet").tweet({
-                username: "fourbeansoup",
-                join_text: null,
-                avatar_size: null,
-                count: 3,
-                loading_text: "loading tweets..."
-            });
-        });
-    </script>
-    <script type="text/javascript"> 
-        // when the DOM is ready, convert the feed anchors into feed content 
-        $(document).ready(function() { 
-            $('a.feed').gFeed( { target: '#feeds' } ); 
-        }); 
-    </script>
-    <meta content='index, follow' name='robots' />
-    <meta content='noodp, noydir' name='robots' />
-    <meta content='index, follow' name='googlebot' />
-    <base href='http://fourbeansoup.com/' />
-  </head>
-  <body id='home_page'>
-    
-    <div id='top_bar'>
-      <div id="nav_main" class='inner'>
-        <ul class="clearfix">
-          <li><a href="http://4beansoup.com/products" id="nav_products">Products</a></li>
-          <li><a href="http://4beansoup.com/about" id="nav_about_us">About Us</a></li>
-          <li><a href="http://cooking.4beansoup.com" id="nav_blog">Blog</a></li>
-        </ul>
+---
+layout: default
+title: Four Bean Soup - Cooking up simple and elegant web apps
+---
+
+<div class="inner clearfix">
+  <div id="products">
+    <h2>Our Products</h2>
+    <div class="service">
+      <div class="logo_block">
+        <img src="images/tweethopper.png" alt="Tweet hopper logo" class="service_logo" />
       </div>
-      <h1>four bean soup</h1>
-    </div>
-    
-    <h2 id="slogan">We cook tasty web apps.</h2>
-    
-    <div id="content">
-      
-      <div class="inner clearfix">
-        <div id="products">
-          <h2>Our Products</h2>
-          <div class="service">
-            <div class="logo_block">
-              <img src="images/tweethopper.png" alt="Tweet hopper logo" class="service_logo" />
-            </div>
-            <h3 class="service_tagline">Manage multiple twitter accounts easily.</h3>
-            <p class="service_description">
-              <a href="http://tweethopper.com/" class="service_name">Tweet hopper</a> allows you to easily control multiple twitter accounts from a single spot.  Each twitter account can be setup for direct messages, rss &amp; atom feeds, and many other sources.
-            </p>
-          </div>
-        </div>
-        
-        
-        <div id="tweet_container">
-          <h2>Our Tweets</h2>
-          <div class="tweet"></div>
-        </div>
-        
-        <div id="feeds">
-          <a href="http://cooking.fourbeansoup.com/rss" class="feed">Our Blog</a>
-        </div>
-        <!-- <div class="divider"></div> -->
-        
-      </div>
-      
-    </div>
-    
-    <div class='vcard' id='footer'>
-      <p>
-        All Content Copyright &copy; 2009 4BeanSoup, Inc
+      <h3 class="service_tagline">Manage multiple twitter accounts easily.</h3>
+      <p class="service_description">
+        <a href="http://tweethopper.com/" class="service_name">Tweet hopper</a> allows you to easily control multiple twitter accounts from a single spot.  Each twitter account can be setup for direct messages, rss &amp; atom feeds, and many other sources.
       </p>
     </div>
-    
-    <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-    try {
-    var pageTracker = _gat._getTracker("UA-11472568-3");
-    pageTracker._trackPageview();
-    } catch(err) {}</script>
-  </body>
-</html>
+  </div>
+  
+  
+  <div id="tweet_container">
+    <h2>Our Tweets</h2>
+    <div class="tweet"></div>
+  </div>
+  
+  <div id="feeds">
+    <a href="http://cooking.fourbeansoup.com/rss" class="feed">Our Blog</a>
+  </div>
+  <!-- <div class="divider"></div> -->
+  
+</div>
