@@ -112,7 +112,7 @@ padding:0;
 }
 .header-section {
 	background:url(../images/header-t.png) no-repeat;
-	padding:479px 0 0;
+	padding:479px 0 125px;
 	position:relative;
 	height:1%;
 	z-index:3;
@@ -278,12 +278,15 @@ padding:0;
 }
 #content {width:100%;}
 .post {
-	padding:83px 0 0;
+	padding:83px 0 125px;
 	background:url(../images/post-t.png) no-repeat;
 	margin:0 -72px 7px;
 	font-style:italic;
 	line-height:24px;
 	width:1104px;
+}
+#contact {
+  padding-bottom: 0px;
 }
 .post-holder {
 	background:url(../images/post-b.png) no-repeat 0 100%;
@@ -444,7 +447,9 @@ padding:0;
   font-size: 10px;
 }
 .post .text-services {
-	text-indent:-9999px;	overflow: hidden;	background:url(../images/text-services.png) no-repeat;
+	text-indent:-9999px;
+  overflow: hidden;
+  background:url(../images/text-services.png) no-repeat;
 	width:103px;
 	height:39px;
 }
@@ -459,19 +464,24 @@ padding:0;
 	padding:0 10px 0 0;
 }
 .post .image-alt {
-	position:relative;	bottom:-40px;
+	position:relative;
+  bottom:-40px;
 	left:-51px;
 }
 .post .alt-image {margin:-12px -3px 0 0;}
 .post .text-identity {
 	height:39px;
-	text-indent:-9999px;	overflow: hidden;
-	text-align:left;	background:url(../images/text-identity.png) no-repeat 100%;
+	text-indent:-9999px;
+  overflow: hidden;
+	text-align:left;
+  background:url(../images/text-identity.png) no-repeat 100%;
 }
 .post .info-right {text-align:right;}
 .post .text-contact {
 	background:url(../images/text-contact.png) no-repeat;
-	text-indent:-9999px;	overflow: hidden;	width:105px;
+	text-indent:-9999px;
+  overflow: hidden;
+  width:105px;
 	height:39px;
 }
 .post .form {
@@ -528,7 +538,9 @@ padding:0;
 	cursor:pointer;
 	width:210px;
 	height:50px;
-	text-indent:-9999px;	overflow: hidden;	margin:5px 0 0 5px;
+	text-indent:-9999px;
+  overflow: hidden;
+  margin:5px 0 0 5px;
 }
 #footer {padding:29px 0 0;}
 #footer .decoration {
@@ -550,7 +562,8 @@ padding:0;
 	width:908px;
 	margin:0 auto;
 	text-align:center;
-	padding:0 26px 20px 0;}
+	padding:0 26px 20px 0;
+}
 #footer .info .area li {
 	display:inline-block;
 	vertical-align:top;
@@ -569,7 +582,8 @@ padding:0;
 #footer .info .area li a:hover {text-decoration:underline;}
 #footer .social {
 	width:400px;
-	margin:0 auto -31px;	list-style:none;	padding:0;
+	margin:0 auto -31px;	list-style:none;
+  padding:0;
 }
 #footer .social li {
 	float:left;
@@ -592,7 +606,9 @@ padding:0;
 	display:block;
 	width:42px;
 	height:43px;
-	text-indent:-9999px;	overflow: hidden;}
+	text-indent:-9999px;
+  overflow: hidden;
+}
 #footer .social .facebook {
 	background:url(../images/ico-facabook.png) no-repeat;
 	margin:0 0 0 14px;
@@ -617,21 +633,33 @@ padding:0;
 	z-index:1;
 	padding:0 0 51px;
 }
+
 .footer-area .logo-2 {
 	background:url(../images/logo-2.png) no-repeat;
 	width:217px;
 	height:49px;
-	text-indent:-9999px;	overflow: hidden;	margin:0 auto;
+	text-indent:-9999px;
+  overflow: hidden;
+  margin:0 auto;
 	display:block;
 }
-.footer-area .top {
-	position:absolute;	bottom:0;
+.back_to_top {
+  width: 960px;
+  position:relative;
+  margin: 0 auto -24px;
+  z-index: -1;
+}
+.footer-area .top, .back_to_top .top {
+	position:absolute;
+  bottom:0;
 	width:30px;
 	height:50px;
-	text-indent:-9999px;	overflow: hidden;	background:url(../images/btn-top.png) no-repeat;
+	text-indent:-9999px;
+  overflow: hidden;
+  background:url(../images/btn-top.png) no-repeat;
 }
-.footer-area .left {left:0;}
-.footer-area .right {right:0;}
+.footer-area .left, .back_to_top .left {left:0;}
+.footer-area .right, .back_to_top .right {right:0;}
 .footer-area .logo-2 a {
 	height:100%;
 	cursor:pointer;
@@ -645,5 +673,7 @@ padding:0;
 .item-list .item-holder:after,
 .post-frame:after,
 .header-frame:after {
-	content:"";	display:block;	clear:both;
+	content:"";
+  display:block;
+  clear:both;
 }
