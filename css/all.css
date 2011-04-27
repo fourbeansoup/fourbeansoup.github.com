@@ -484,10 +484,21 @@ padding:0;
   width:105px;
 	height:39px;
 }
+.post div.input label {
+  position:absolute; top:17px; left:15px;
+  font:15px/17px "Times New Roman", Times, serif;
+}
+.post div.textarea label {
+  position:absolute; top:30px; left:27px;
+  font:15px/17px "Times New Roman", Times, serif;
+}
 .post .form {
 	width:650px;
 	float:left;
 	margin:-10px 0 0;
+}
+.post form div.textarea, .post form div.input {
+  position: relative;
 }
 .post .form .textarea {
 	background:url(../images/bg-textarea.png) no-repeat;

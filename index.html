@@ -8,6 +8,7 @@
   <script type="text/javascript" src="js/html5.js"></script>
   <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
   <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+  <script type="text/javascript" src="js/jquery.infieldlabel.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
   <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen"/><![endif]-->
 </head>
@@ -222,10 +223,6 @@
 					</div>
         </article>
         <!-- post -->
-        <div class="back_to_top">
-          <a href="#top" class="top left">top</a>
-          <a href="#top" class="top right">top</a>
-        </div>
 				<div id="identity" class="post">
 					<div class="post-holder">
 						<div class="post-frame">
@@ -255,21 +252,25 @@
 								<header>
 									<h1 class="text-contact">CONTACT</h1>
 								</header>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia risus augue. Ut accumsan velit vel nunc cursus in elementum neque porta. Nullam augue velit, dignissim sed malesuada id, congue at elit. </p>
-								<form action="#" class="form">
+                <p>We would love to hear from you!  Fill out the form below and we will get back to you as soon as we can.</p>
+                <form action="#" class="form">
 									<fieldset>
-										<div class="textarea">
-											<textarea cols="30" rows="10">Here is your comment...</textarea>
+                    <div class="textarea">
+                      <label for="comment">Tell us how we can help</label>
+											<textarea id="comment" cols="30" rows="10"></textarea>
 										</div>
 										<div class="form-col">
-											<div class="input">
-												<input type="text" class="text" value="Your Name/Nick" />
+                      <div class="input">
+                        <label for="contact_name">Your Name</label>
+												<input type="text" id="contact_name" class="text" value="" />
 											</div>
-											<div class="input">
-												<input type="text" class="text" value="Your Email" />
+                      <div class="input">
+                        <label for="contact_email">Your Email</label>
+												<input type="text" class="text" id="contact_email" value="" />
 											</div>
-											<div class="input">
-												<input type="text" class="text" value="Your Website" />
+                      <div class="input">
+                        <label for="contact_website">Your Website</label>
+												<input type="text" class="text" id="contact_website" value="" />
 											</div>
 											<input type="submit" class="submit" value="send" />
 										</div>

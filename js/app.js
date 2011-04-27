@@ -12,6 +12,7 @@ $(document).ready(function() {
     $(this).animate({ marginTop: '0px'}, 900);
   });
 
-  $('.patrons, .about, .services, .identity, .contact, .back_to_top').localScroll({hash: true});
+  $('.patrons, .about, .services, .identity, .contact, .footer-area').localScroll({hash: true});
 
+  $("label").inFieldLabels();
 });
