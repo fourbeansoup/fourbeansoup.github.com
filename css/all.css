@@ -211,13 +211,13 @@ padding:0;
 }
 #header .col-1 {
 	float:left;
-	width:274px;
+	width:270px;
 	font-style:italic;
 	line-height:24px;
 }
 #header .col-2 {
 	float:right;
-	width:271px;
+	width:255px;
 	text-align:right;
 	font-style:italic;
 	line-height:24px;
