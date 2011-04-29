@@ -317,7 +317,7 @@ padding:0;
 	margin:-2px 0 0;
 }
 .post header {margin:0 0 22px;}
-.post p {padding:0 0 24px;}
+.post p {padding: 0 24px 24px 0 ;}
 .post .text-patrons {
 	text-indent:-9999px;
   overflow: hidden;
@@ -378,7 +378,7 @@ padding:0;
 	padding:0 9px 0 0;
 }
 * +html .item-list .align-left {margin:0 -3px 0 0;}
-.item-list .item-area section {padding:37px 0 0;}
+.item-list .item-area section {padding:28px 0 0;}
 .item-list .text-pickabottle {
 	width:240px;
 	height:28px;
@@ -411,7 +411,8 @@ padding:0;
   background:url(../images/text-big-cartel.png) no-repeat;
 	margin:0 0 3px;
 }
-.item-list .green section {padding-left:18px;}
+.item-list .green section {padding-left:24px;}
+.item-list .lblue section {padding-left:24px;}
 .post .container {
 	width:100%;
   overflow:hidden;
