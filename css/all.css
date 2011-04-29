@@ -61,7 +61,7 @@ body {
 	margin:0;
 	font:15px Arial, Helvetica, sans-serif;
 	color:#382c00;
-	background:url(../images/bg-body.jpg) 69px 200px;
+	background:url(../images/bg-body.jpg) 69px 200px fixed;
 	min-width:970px;
 }
 .sanserif {
@@ -112,7 +112,7 @@ padding:0;
 }
 .header-section {
 	background:url(../images/header-t.png) no-repeat;
-	padding:479px 0 125px;
+	padding:479px 0 35px;
 	position:relative;
 	height:1%;
 	z-index:3;
@@ -278,7 +278,7 @@ padding:0;
 }
 #content {width:100%;}
 .post {
-	padding:83px 0 125px;
+	padding:83px 0 35px;
 	background:url(../images/post-t.png) no-repeat;
 	margin:0 -72px 7px;
 	font-style:italic;
