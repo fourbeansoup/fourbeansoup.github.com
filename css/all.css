@@ -140,14 +140,18 @@ padding:0;
 	position:absolute;
 	z-index:2;
 	left:418px;
-	top:-59px;}
+	top:-59px;
+}
 .logo-1 a {
 	cursor:pointer;
 	height:100%;
 	display:block;
 }
 .slogan {
-	text-indent:-9999px;	overflow: hidden;	position:absolute;	width:412px;
+	text-indent:-9999px;
+	overflow: hidden;
+	position:absolute;
+	width:412px;
 	height:305px;
 	background:url(../images/slogan.png) no-repeat;
 	top:154px;
@@ -206,7 +210,8 @@ padding:0;
 	margin:0 0 0 50px;
 }
 #header .area {
-	width:100%;	overflow:hidden;
+	width:100%;
+	overflow:hidden;
 	min-height:400px;
 }
 #header .col-1 {
@@ -221,19 +226,25 @@ padding:0;
 	text-align:right;
 	font-style:italic;
 	line-height:24px;
-	padding:0 2px 0 0;}
+	padding:0 2px 0 0;
+}
 #header .col-1 .text-our-patrons {
 	width:159px;
 	background:url(../images/text-our-patrons.png) no-repeat;
 	height:39px;
-	text-indent:-9999px;	overflow: hidden;
-	margin:0 0 12px 49px;}
+	text-indent:-9999px;
+	overflow: hidden;
+	margin:0 0 12px 49px;
+}
 #header .col-2 .text-apps {
 	width:113px;
 	height:39px;
 	width:100%;
-	text-align:left;	text-indent:-9999px;	overflow: hidden;
-	margin:0 0 12px 72px;	background:url(../images/text-apps.png) no-repeat;
+	text-align:left;
+	text-indent:-9999px;
+	overflow: hidden;
+	margin:0 0 12px 72px;
+	background:url(../images/text-apps.png) no-repeat;
 }
 #header .col-2 .heading,
 #header .col-1 .heading {
@@ -247,7 +258,9 @@ padding:0;
 }
 #header .col-2 .heading {padding:0 10px 21px 0;}
 #header .menu {
-	list-style:none;	margin:0 -45px 0 0;	padding:21px 0 0;
+	list-style:none;
+	margin:0 -45px 0 0;
+	padding:21px 0 0;
 	width:1005px;
 }
 #header .menu li {
@@ -314,7 +327,9 @@ padding:0;
 }
 .item-list {padding:15px 0 0;}
 .item-list .blue,
+.item-list .black,
 .item-list .green,
+.item-list .lblue,
 .item-list .orange {
 	background:url(../images/item-frame-t.png) no-repeat;
 	padding:13px 0 0;
@@ -349,6 +364,10 @@ padding:0;
 .item-list .green .item-area-holder {background:url(../images/bg-green-item-t.jpg) no-repeat;}
 .item-list .blue .item-area {background:url(../images/bg-blue-item-c.jpg) repeat-y;}
 .item-list .blue .item-area-holder {background:url(../images/bg-blue-item-t.jpg) no-repeat;}
+.item-list .lblue .item-area {background:url(../images/bg-lblue-item-c.jpg) repeat-y;}
+.item-list .lblue .item-area-holder {background:url(../images/bg-lblue-item-t.jpg) no-repeat;}
+.item-list .black .item-area {background:url(../images/bg-black-item-c.jpg) repeat-y;}
+.item-list .black .item-area-holder {background:url(../images/bg-black-item-t.jpg) no-repeat;}
 .item-list .align-right {
 	float:right;
 	padding:0 0 0 20px;
@@ -368,6 +387,14 @@ padding:0;
 	margin:0 0 3px;
 	background:url(../images/text-pickabottle.png) no-repeat -1px 0;
 }
+.item-list .text-designsvault {
+	width:260px;
+	height:28px;
+	text-indent:-9999px;
+  overflow: hidden;
+	margin:0 0 3px;
+	background:url(../images/text-designs-vault.png) no-repeat -1px 0;
+}
 .item-list .text-cooleaf {
 	width:163px;
 	height:28px;
@@ -376,12 +403,12 @@ padding:0;
   background:url(../images/text-cooleaf.png) no-repeat;
 	margin:0 0 3px;
 }
-.item-list .text-mad-mami {
-	width:166px;
+.item-list .text-big-cartel {
+	width:208px;
 	height:28px;
 	text-indent:-9999px;
   overflow: hidden;
-  background:url(../images/text-mad-mami.png) no-repeat;
+  background:url(../images/text-big-cartel.png) no-repeat;
 	margin:0 0 3px;
 }
 .item-list .green section {padding-left:18px;}
@@ -414,10 +441,14 @@ padding:0;
 	width:151px;
 	height:40px;
 	margin:0 0 16px 34px;
-	text-indent:-9999px;	overflow: hidden;}
+	text-indent:-9999px;
+	overflow: hidden;
+}
 .post .container .text-wendy-owens {
 	background:url(../images/text-wendy-owens.png) no-repeat;
-	text-indent:-9999px;	overflow: hidden;	width:179px;
+	text-indent:-9999px;
+	overflow: hidden;
+	width:179px;
 	height:40px;
 	margin:0 0 16px 49px;
 }
@@ -593,7 +624,8 @@ padding:0;
 #footer .info .area li a:hover {text-decoration:underline;}
 #footer .social {
 	width:400px;
-	margin:0 auto -31px;	list-style:none;
+	margin:0 auto -31px;
+	list-style:none;
   padding:0;
 }
 #footer .social li {
