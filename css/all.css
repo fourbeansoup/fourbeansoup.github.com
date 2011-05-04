@@ -160,7 +160,8 @@ padding:0;
 #nav {
 	width:950px;
 	padding:1px 72px 0 82px;
-	margin: 0 0 -70px
+	margin: 0 0 -70px;
+	height: 80px;
 }
 #nav li {
 	float:left;
@@ -627,6 +628,7 @@ padding:0;
 	width:400px;
 	margin:0 auto -31px;
 	list-style:none;
+	height: 44px;
   padding:0;
 }
 #footer .social li {
