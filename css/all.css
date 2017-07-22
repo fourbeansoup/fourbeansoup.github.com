@@ -697,7 +697,7 @@ padding:0;
 }
 .footer-area .top, .back_to_top .top {
 	position:absolute;
-  bottom:0;
+  bottom:19px;
 	width:30px;
 	height:50px;
 	text-indent:-9999px;
